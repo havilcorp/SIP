@@ -36,6 +36,7 @@ class MainActivity : Activity() {
                 override fun onDismissed(snackbar: Snackbar, event: Int) {}
             }).build()
 
+        
         val dialogMultiplePermissionsListener = DialogOnAnyDeniedMultiplePermissionsListener.Builder
             .withContext(this)
             .withTitle("Дать разрешение на ваше местоположение")
